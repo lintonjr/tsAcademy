@@ -1,0 +1,14 @@
+{
+  "name": "typescript-class-starter",
+  "version": "1.0.0",
+  "description": "Projeto base para aula de TypeScript (CommonJS, Node)",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
